@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/junoon-clone/static/js/main.01290e3a.js",
+    "static/media/fs3.jpg": "/junoon-clone/static/media/fs3.06959569102d85f5b0ca.jpg",
+    "static/media/storygram2.jpg": "/junoon-clone/static/media/storygram2.5184b467d55f1c020119.jpg",
+    "static/media/fs5.jpg": "/junoon-clone/static/media/fs5.4970b80b8c4418d8be92.jpg",
+    "static/media/fs2.jpg": "/junoon-clone/static/media/fs2.8118e73572675fdc62ae.jpg",
+    "static/media/storygram1.jpg": "/junoon-clone/static/media/storygram1.9a7b7b170f5516a61a0a.jpg",
+    "static/media/fs8.jpg": "/junoon-clone/static/media/fs8.83b41e8ae345f7111660.jpg",
+    "static/media/fs7.jpg": "/junoon-clone/static/media/fs7.d361ed9ea6072955bd97.jpg",
+    "static/media/junoon.png": "/junoon-clone/static/media/junoon.d32957d36897b2545e74.png",
+    "static/media/fs6.jpg": "/junoon-clone/static/media/fs6.e5de5aafe06cb8ba82e3.jpg",
+    "static/media/fs1.jpg": "/junoon-clone/static/media/fs1.b2a31fd38252ef5b0624.jpg",
+    "static/media/fs9.jpg": "/junoon-clone/static/media/fs9.385ff8ed4a84d929cda7.jpg",
+    "static/media/fs4.jpg": "/junoon-clone/static/media/fs4.a85013df71d6dc962f98.jpg",
+    "index.html": "/junoon-clone/index.html",
+    "main.01290e3a.js.map": "/junoon-clone/static/js/main.01290e3a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.01290e3a.js"
+  ]
+}
