@@ -2,7 +2,7 @@ import junoonWhite from "../images/junoon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import Facebook from "../images/facebook-16.png";
 
-import { FaFacebookF } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -25,13 +25,6 @@ export default function Footer() {
         <FontAwesomeIcon icon='fa-brands fa-facebook' />
         {/* <i class='fa fa-facebook-f' /> */}
       </a>
-      {/* <a
-        className='btn btn-primary'
-        style={{ backgroundColor: "#3b5998" }}
-        href='#!'
-        role='button'
-      >
-      {/* </a> */}
     </div>
   );
 }
