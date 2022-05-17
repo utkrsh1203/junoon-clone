@@ -24,17 +24,12 @@ import fs9 from "../images/featured-shorts/fs9.jpg";
 export default function FeaturedShorts(props) {
   return (
     <div className='container-fluid w-75 d-flex flex-wrap'>
-      {/* <div className='row'> */}
       <Image URL={fs1} />
       <Image URL={fs2} />
       <Image URL={fs3} />
-      {/* </div> */}
-      {/* <div className='row'> */}
       <Image URL={fs4} />
       <Image URL={fs5} />
       <Image URL={fs6} />
-      {/* </div> */}
-      {/* <div className='row'> */}
       <Image URL={fs7} />
       <Image URL={fs8} />
       <Image URL={fs9} />

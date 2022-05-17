@@ -10,11 +10,14 @@ export default function Footer() {
       className='container-fluid p-5 '
       style={{ backgroundColor: "#161616" }}
     >
-      <img
-        className='img-fluid p-3 d-block mx-auto w-25'
-        src={junoonWhite}
-        alt='..'
-      />
+      <div className='flex'>
+        <img
+          // className='img-fluid p-3 d-block mx-auto w-25'
+          className='img-fluid p-3 w-25 '
+          src={junoonWhite}
+          alt='..'
+        />
+      </div>
       <a
         href='https://www.facebook.com/junoon.nsut/'
         // role='button'

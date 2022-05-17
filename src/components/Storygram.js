@@ -1,10 +1,7 @@
 export default function Storygram(props) {
   return (
-    <div>
-      <div
-        className='card m-3 '
-        style={{ width: "35rem", height: "50rem", backgroundColor: "#161616" }}
-      >
+    <div className='p-5 d-inline-flex '>
+      <div className='card m-3 ' style={{ backgroundColor: "#161616" }}>
         <img src={props.imgURL} className='card-img-top' alt='img' />
         <div className='card-body text-center text-light p-5'>
           <a
