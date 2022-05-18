@@ -2,7 +2,7 @@ import junoonWhite from "../images/junoon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import Facebook from "../images/facebook-16.png";
 
-// import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
       className='container-fluid p-5 '
       style={{ backgroundColor: "#161616" }}
     >
-      <div className='flex'>
+      <div className='d-flex justify-content-center'>
         <img
           // className='img-fluid p-3 d-block mx-auto w-25'
           className='img-fluid p-3 w-25 '

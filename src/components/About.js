@@ -1,4 +1,5 @@
 import junoonLogoOnly from "../images/junoon-logo-only.png";
+import CountUp from "react-countup";
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
         </div>
 
         <div className='col-lg-6'>
-          <p class='nunito text-light' style={{ textAlign: "left;" }}>
+          <p className='nunito text-light' style={{ textAlign: "left" }}>
             Founded in 2010, Junoon is a platform for photography and
             videography enthusiasts of NSUT where they can showcase and nurture
             their talents . Our members excel not just in different genres of
@@ -37,6 +38,26 @@ export default function About() {
             also indulges in collborations with other societies to exhibit the
             best of happenings in NSUT.
           </p>
+        </div>
+      </div>
+      <div className='d-flex justify-content-center flex-wrap'>
+        <div>
+          <h1 className='text-light  px-5 py-2'>
+            <CountUp className='fs-1' end={57} duration={1} />
+            <span className='fs-6 p-2'>Competitions</span>
+          </h1>
+        </div>
+        <div>
+          <h1 className='text-light  px-5 py-2'>
+            <CountUp className='fs-1' end={124} duration={1} />
+            <span className='fs-6 p-2'>Photowalks</span>
+          </h1>
+        </div>
+        <div>
+          <h1 className='text-light  px-5 py-2'>
+            <CountUp className='fs-1' end={45} duration={1} />
+            <span className='fs-6 p-2'>Work-Shops</span>
+          </h1>
         </div>
       </div>
     </div>
