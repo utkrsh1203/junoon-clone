@@ -4,11 +4,17 @@ import Footer from "../src/components/Footer";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import StorygramData from "./objects";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#1B1B1B" }}>
+    <div style={{ backgroundColor: "#1B1B1B", paddingTop: "8rem" }}>
       <Navbar />
+
+      <Carousel />
+
+      <div className='p-5'></div>
+
       <About />
       <h2 className='card-body text-center text-light p-3 my-4 '>
         Featured Shorts

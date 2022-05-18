@@ -4,12 +4,11 @@ import CountUp from "react-countup";
 export default function About() {
   return (
     <div className='container'>
-      <h2 className='card-body text-center text-light p-10 '>About Junoon </h2>
+      <h2 className='card-body text-center text-light p-10 p-md-20  '>
+        About Junoon{" "}
+      </h2>
 
-      <div
-        className='row d-flex align-items-center'
-        style={{ padding: "5rem", margin: "0 5rem" }}
-      >
+      <div className='row d-flex align-items-center p-lg-10 p-md-1'>
         <div className='col-lg-6 '>
           <figure className='rounded d-flex justify-content-center '>
             <img className='img-fluid w-75 ' src={junoonLogoOnly} alt='' />
