@@ -5,7 +5,9 @@
     font-size: 12px;
 }
 
-.padding {
-    
+.bg-1{
+    height: 30px;
+    border-radius: 100%;
+    background-color: blue;
+    /* background-image:  url("/src/images/BG1.jpg")   ; */
 }
-
